@@ -1,0 +1,50 @@
+/* Variables */
+
+:root {
+    --copy: #27374D;
+    --link: #526D82;
+    --grey: #9DB2BF;
+    --pale: #e4ecf1;
+    --font: 'Mulish', sans-serif;
+    --border-radius: 4px;
+    --shadow: 2px 2px 8px #27374d95;
+}
+
+/* Utilities */
+
+.btn {
+    background-color: var(--link);
+    border-radius: var(--border-radius);
+    color: #fff;
+    display: inline-block;
+    font-size: 0.9rem;
+    letter-spacing: 0.125rem;
+    margin-top: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease;
+}
+
+.btn:hover {
+    background-color: var(--copy);
+}
+
+/* Universal Styles */
+
+body {
+    color: var(--copy);
+    font-family: var(--font);
+}
+
+a {
+    color: var(--link);
+  }
+
+/* Hero Banner */
+
+/* Picture Elements */
+
+/* Horizontal Scroll Widget */
+
+/* Media Query */
